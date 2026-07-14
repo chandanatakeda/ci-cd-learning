@@ -6,7 +6,7 @@ public class AccountSummaryPrompt {
     public static List<Response> getSoftDrinkData(List<Request> requests) {
         // Validate the expected number of requests as an input
         if (requests.size() != 1)
-            throw new ListException('The requests list must contain one entry only');
+            throw new ListException('The requests list must contain one entry only2');
         Account acc = requests[0].objectToSummarize;
         
         List<Soft_Drink_Order__c> SoftDrinkOrders =
