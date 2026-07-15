@@ -1,5 +1,6 @@
 public class AccountSummaryPrompt {
     //CapabilityType='PromptTemplateType://einstein_gpt__fieldCompletion'
+//chandana
     @InvocableMethod(label='Soft Drink Orders'
                      description='Find Soft Drink for Account'
                      CapabilityType='PromptTemplateType://einstein_gpt__recordSummary')
